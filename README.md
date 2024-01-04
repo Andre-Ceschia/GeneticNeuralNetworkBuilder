@@ -12,7 +12,7 @@ The program utilizes "Generalized Loss" for early stopping when training neural 
 Genetic Neural Netowrk Builder supports CUDA usage during neural netowrk training.
 
 ## How It Works 
-1. The algorithim initially creates a population of N randomm chromosones that represent the architecture of neural networks. 
+1. The algorithim initially creates a population of N random chromosones that represent the architecture of neural networks. 
 
 2. The algorithim will then iteratre through the population of chromosones, transforming each chromosone into a neural network with PyTorch's C++ library.
 
@@ -20,12 +20,12 @@ Genetic Neural Netowrk Builder supports CUDA usage during neural netowrk trainin
 
 4. The algorithim then chooses the M best chromosones to repopulate. 
 
-5. A new population is then initilzed by the offspring of the M best chromosones. 
+5. A new population is then initialized by the offspring of the M best chromosones. 
 
 6. Go to step 2 and restart the process over again until K iterations have been completed.
 
 ## Results
-This algorthim reduced the Root Mean Squared Error of one of my models by over 10% with a P-Value of 0.0001.  
+This algorithim reduced the Root Mean Squared Error of one of my models by over 10% with a P-Value of 0.0001.  
 
 
 
