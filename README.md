@@ -25,7 +25,7 @@ Genetic Neural Netowrk Builder supports CUDA usage during neural netowrk trainin
 6. Go to step 2 and restart the process over again until K iterations have been completed.
 
 ## Results
-This algorthim reduced the Root Mean Squared Error of one of my models by over 10%.  
+This algorthim reduced the Root Mean Squared Error of one of my models by over 10% with a P-Value of 0.0001.  
 
 
 
