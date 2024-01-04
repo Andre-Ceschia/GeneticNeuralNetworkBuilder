@@ -1,5 +1,5 @@
 # Genetic Neural Network Builder
-Genetic Neural Network Builder is an open source C++ project that utlizes a genetic algorithim to find the ideal neural nerwork architecture to minimize loss.
+Genetic Neural Network Builder is an open source C++ project that utilizes a genetic algorithim to find the ideal neural network architecture to minimize loss.
 
 The algorithim utilizes PyTorch's C++ library for the training of each neural network, the rest of the algorithim was written from scratch.
 
