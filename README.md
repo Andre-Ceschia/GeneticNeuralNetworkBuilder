@@ -14,7 +14,7 @@ Genetic Neural Netowrk Builder supports CUDA usage during neural netowrk trainin
 ## How It Works 
 1. The algorithim initially creates a population of N random chromosones that represent the architecture of neural networks. 
 
-2. The algorithim will then iteratre through the population of chromosones, transforming each chromosone into a neural network with PyTorch's C++ library.
+2. The algorithim will then iterate through the population of chromosones, transforming each chromosone into a neural network with PyTorch's C++ library.
 
 3. Each neural network is then trained and validated with the user provided data. The loss value of each neural network is then assigned to the corresponding chromosone.
 
@@ -26,8 +26,6 @@ Genetic Neural Netowrk Builder supports CUDA usage during neural netowrk trainin
 
 ## Results
 This algorithim reduced the Root Mean Squared Error of one of my models by over 10% with a P-Value of 0.0001.  
-
-
 
 
 ## Example Usage
